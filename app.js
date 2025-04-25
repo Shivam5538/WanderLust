@@ -15,11 +15,11 @@ const MongoStore = require('connect-mongo');
 const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
-const User = require("E:/web project/models/user.js");
+const User = require("../models/user.js");
 
-const listingRouter = require("E:/web project/routes/listing.js");
-const reviewRouter = require("E:/web project/routes/review.js");
-const userRouter = require("E:/web project/routes/user.js");
+const listingRouter = require("../routes/listing.js");
+const reviewRouter = require("../routes/review.js");
+const userRouter = require("../routes/user.js");
 
 const dbUrl = process.env.ATLASDB_URL;
 
